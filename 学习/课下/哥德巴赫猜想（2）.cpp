@@ -28,14 +28,14 @@ void a(int d){
 	int ans=0;
 	for (int i=0; i<d/3; i++) {
 		for (int j=0; j<i; j++) {
-			for (int k=0; k<j; k++) {
-				if (g[i]+g[j]+g[k]==d) {
-					cout<<d<<"="<<g[i]<<"+"<<g[j]<<"+"<<g[k]<<"\n";
-					ans=1;
-					break;
+			
+			if (g[i]+g[j]==d) {
+			    cout<<d<<"="<<g[i]<<"+"<<g[j]<<"\n";
+				ans=1;
+				break;
 					
 				}
-			}
+			
 			if(ans==1){
 				break;
 			}
@@ -48,15 +48,13 @@ void a(int d){
 	
 }
 void x(){
-	srand(unsigned(time(NULL)));
-	for(int i=0;i<10;i++) {
-	int n= 2*rand()%10000+5;
-	n=abs(n);
-	a(n);
+	for (int i=4; i<=2000; i+=2) {
+		a(i);
+	}
 	
 }
 	
-}
+
 int main(){
 	x();
 }
