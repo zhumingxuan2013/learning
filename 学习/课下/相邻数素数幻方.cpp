@@ -17,8 +17,6 @@ bool isPrime(int a){
 	return true;
 }
 void dfs(int step){
-	
-	//memset(ans, 0, sizeof(ans));
 	if (step==n+1) {
 		for (int i=0;i<4;i++) {
 			for (int j=0;j<4;j++) {

@@ -1,0 +1,52 @@
+#include <iostream>
+
+using namespace std;
+int aaaaaaaaaaa[100000];
+int vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489;
+void xdfscdfaejkcghjkhgfhjgfd3456789nxhjgfst(int leftleftleftleftleftleftleftleftleftleft,int rightrightrightrightrightrightrightrightrightrightrightright){
+	int iiiiii,jjjjjj,midmidmidmidmid,tttttt;
+	iiiiii=leftleftleftleftleftleftleftleftleftleft;
+	jjjjjj=rightrightrightrightrightrightrightrightrightrightrightright;
+	midmidmidmidmid=(leftleftleftleftleftleftleftleftleftleft+rightrightrightrightrightrightrightrightrightrightrightright)/2;
+	do{
+		while (aaaaaaaaaaa[iiiiii]<aaaaaaaaaaa[midmidmidmidmid]) {
+			iiiiii++;
+		}
+		while (aaaaaaaaaaa[jjjjjj]>aaaaaaaaaaa[midmidmidmidmid]) {
+			jjjjjj--;
+		}
+		if (iiiiii<=jjjjjj) {
+			tttttt=aaaaaaaaaaa[iiiiii];
+			aaaaaaaaaaa[iiiiii]=aaaaaaaaaaa[jjjjjj];
+			aaaaaaaaaaa[jjjjjj]=tttttt;
+			iiiiii++;
+			jjjjjj--;
+		}
+	}while (iiiiii<=jjjjjj);
+	if (leftleftleftleftleftleftleftleftleftleft<jjjjjj) {
+		xdfscdfaejkcghjkhgfhjgfd3456789nxhjgfst(leftleftleftleftleftleftleftleftleftleft, jjjjjj);
+	}
+	if (iiiiii<rightrightrightrightrightrightrightrightrightrightrightright) {
+		xdfscdfaejkcghjkhgfhjgfd3456789nxhjgfst(iiiiii, rightrightrightrightrightrightrightrightrightrightrightright);
+	}
+	
+}
+
+int main() {
+ cin>>vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489;
+	for (int i=1; i<=vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489; i++) {
+		cin>>aaaaaaaaaaa[i];
+	}
+	xdfscdfaejkcghjkhgfhjgfd3456789nxhjgfst(1, vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489);
+	for (int i=1; i<=vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489vnkmghjftcdcvmxfdnnfbbbbbbbbndjdbnvngjhfdsdfghjkcxzsdfghjccfnaamgvbcmnxfdrxscfgrsxfbbvuyfbtb9985764352345676543567865467567865464789489; i++) {
+		cout<<aaaaaaaaaaa[i]<<" ";
+
+	}
+}
+//       -
+//     /   \
+//     \   /
+//       _
+//     --|--
+//       |
+//      / \

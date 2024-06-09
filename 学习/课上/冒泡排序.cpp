@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 int main() {
 	int a;
@@ -9,17 +8,21 @@ int main() {
 		cin>>b[i];
 	}
 	for (int i=0; i<a; i++) {
-		for (int j=0; j<a; j++) {
-			if (b[j]>b[j+1]) {
+		int flag=1;
+		for (int j=i; j<a; j++) {
+			if (b[i]<b[j]) {
+				flag=0;
 				int c=b[j];
-				b[j]=b[j+1];
-				b[j+1]=c;
-				
+				b[j]=b[i];
+				b[i]=c;
 			}
+		}
+		if (flag==1) {
+			break;
 		}
 	}
 	for (int i=0; i<a; i++) {
 		cout<<b[i]<<" ";
-
 	}
+	return 0;
 }

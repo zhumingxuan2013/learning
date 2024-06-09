@@ -3,9 +3,8 @@
 using namespace std;
 int main()
 {
-	
 	char s1[20001],s2[20001];
-	int a[20001],b[20001],c[40002];
+	int a[20001],b[20001],c[4000000002];
 	int i,j,lena,lenb,lenc,w,jinWei;
 	memset(a, 0, sizeof(a));
 	memset(b, 0, sizeof(b));
@@ -42,4 +41,5 @@ int main()
 	{
 		cout<<c[i];
 	}
+	return 0;
 }

@@ -14,7 +14,7 @@ int a(int n,int m){
 		n=m;
 		m=r;
 		r=n%m;
-	} 
+	}
 	cout<<m<<"\t"<<ans/m;
 	return 0;
 }
