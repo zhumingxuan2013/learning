@@ -1,25 +1,21 @@
 #include <iostream>
-
 using namespace std;
 int main() {
-	int a;
-	cin>>a;
-	
-	int b[100][100]={0};
-
-	for (int i=0; i<a; i++) {
-		for (int j=0; j<=i; j++) {
-			if (j==0||j==i) {
-				b[i][j]=1;
-				cout<<b[i][j]<<"\t";
+	int n;
+	cin>>n;
+	int a[n][n];
+	for (int i=0;i<n; i++) {
+		for (int j=0;j<=i; j++) {
+			if (j==0||i==j) {
+				a[i][j]=1;
+				cout<<1<<" ";
 			}
-			
 			else {
-				b[i][j]=b[i-1][j]+b[i-1][j-1];
-				cout<<b[i][j]<<"\t";
-
+				a[i][j]=a[i-1][j]+a[i-1][j-1];
+				cout<<a[i][j]<<" ";
 			}
 		}
 		cout<<endl;
 	}
+	return 0;
 }

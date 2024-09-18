@@ -5,7 +5,7 @@ void x(long long num){
 	string a;
 	while (num>0) {
 		string b;
-		b=num%2+'0';
+		b=num%8+'0';
 		a.replace(a.size(),0,b);
 		num /= 8;
 	}

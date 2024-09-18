@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			</head>
+	<body>
+		<div>
+			<h4>弱智加法批改器</h4>
+		</div>
+		<div>
+			<button id="ct" onclick="chuti()" >出题</button><br>
+			
+						
+			<div id = "ll"></div>
+			
+			答案： <input id="ans"> <button id="ansdt" onclick="checkans()">提交</button>
+
+			<br>
+		</div>
+		
+		
+	</body>
+	<script language="javascript">
+		var a, b;
+		function chuti(){
+		
+			a = Math.round(Math.random()*10);
+			b = Math.round(Math.random()*10);
+			document.getElementById("ll").innerHTML = a + " + " + b + " = ?";
+		}
+		function checkans(){
+			var c = document.getElementById('ans').value;
+
+			if (a + b == c){
+				alert("答错了");
+			}else{
+				alert("答对了");
+			}
+		} 
+	</script>
+</html>

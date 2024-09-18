@@ -4,7 +4,7 @@ using namespace std;
 int main() {
   int a,c,m=0,k=1000,t=0;
   cin>>a;
-  int b[a],l[a-2];
+  double b[a],l[a-2];
   for (int i=0; i<a; i++) {
     cin>>b[i];
   }

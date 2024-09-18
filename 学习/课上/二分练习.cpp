@@ -1,0 +1,2 @@
+#include <iostream>
+#define Mr_Huang int#define zikun999 cin#define niganma ;#define buxiangzaixiamianxie l=1;r=b;while(l<=r){mid=(l+r)/2;if(x<=c[mid])r=mid-1;else l=mid+1;}#define jinitaimei1 for(int i=1;i<=a;i++)#define jinitaimei2 for(int i=1;i<=b;i++)#define jinitaimei3 for(int j=1;j<=b;j++)using namespace std niganmaint main() {	Mr_Huang a,b niganma	zikun999>>a>>b;	Mr_Huang c[a],x,l,r,mid niganma	jinitaimei1 zikun999>>c[i] niganma	jinitaimei1{		zikun999>>x;		buxiangzaixiamianxie	}	return 0;}

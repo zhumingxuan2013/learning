@@ -2,17 +2,14 @@
 
 using namespace std;
 int main() {
-	long long  a,b=0,c=0;
+	long long  a,b=0,c;
 	cin>>a;
-	for (int i;i<1000000;i++) {
-		b=a%3;
-		c=c+a+b;
-		a=a-b;
-		a=a/3;
-		if (a<3) {
-			break;
-		}
+	c=a;
+	while (a>2) {
+		c+=a/3;
+		a=a/3+a%3;
 	}
-	cout<<c-1;
+	
+	cout<<c;
 	return 0;
 }

@@ -32,4 +32,5 @@ int main() {
 			cout<<i<<"\n";
 		}
 	}
+	
 }
